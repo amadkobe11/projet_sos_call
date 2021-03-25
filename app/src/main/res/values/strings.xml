@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SOS Call</string>
+    <string name="btn_profil">Ma fiche santé</string>
+    <string name="btn_modifier">Modifier ma fiche santé</string>
+
+    <string-array name="groupeSanguin">
+        <item>O-</item>
+        <item>O+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+</resources>
