@@ -1,10 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_2">
+    tools:context=".Activity_2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MA FICHE SANTÉ"
+        android:textSize="20dp"
+        android:background="#3498db"
+        android:padding="24dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/champ_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/nom"/>
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_nom"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/champ_prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/prenom"/>
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_prenom"/>
+
+
+    <TextView
+        android:id="@+id/champ_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/age"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_age"/>
+
+
+    <TextView
+        android:id="@+id/champ_sexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/sexe"/>
+
+    <TextView
+        android:id="@+id/sexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_sexe"/>
+
+
+    <TextView
+        android:id="@+id/champ_taille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/taille"/>
+
+    <TextView
+        android:id="@+id/taille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_taille"/>
+
+
+    <TextView
+        android:id="@+id/champ_poids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/poids"/>
+
+    <TextView
+        android:id="@+id/poids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_poids"/>
+
+
+
+    <TextView
+        android:id="@+id/champ_groupeS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/groupeS"/>
+
+    <TextView
+        android:id="@+id/groupeS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_groupeS"/>
+
+
+    <TextView
+        android:id="@+id/champ_probleme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/probleme"/>
+
+    <TextView
+        android:id="@+id/probleme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_probleme"/>
+
+
+    <TextView
+        android:id="@+id/champ_allergie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/allergie"/>
+
+    <TextView
+        android:id="@+id/allergie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_allergie"/>
+
+
+    <TextView
+        android:id="@+id/champ_traitement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/traitement"/>
+
+    <TextView
+        android:id="@+id/traitement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3498db"
+        android:text="@string/default_traitements"/>
+
+</LinearLayout>

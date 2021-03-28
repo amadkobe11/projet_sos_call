@@ -1,8 +1,11 @@
 <resources>
+
+    <!-- PAGE D'ACCUEIL-->
     <string name="app_name">SOS Call</string>
     <string name="btn_profil">Ma fiche santé</string>
     <string name="btn_modifier">Modifier ma fiche santé</string>
 
+    <!-- LISTE DEROULANTE GROUPE SANGUIN -->
     <string-array name="groupeSanguin">
         <item>O-</item>
         <item>O+</item>
@@ -13,4 +16,30 @@
         <item>AB-</item>
         <item>AB+</item>
     </string-array>
+    
+    <!-- LISTE TEXTE PAR DEFAUT / ACTIVITE 2 -->
+    <string name="default_nom">Nom</string>
+    <string name="default_prenom">Prénom</string>
+    <string name="default_age">Age</string>
+    <string name="default_sexe">Sexe</string>
+    <string name="default_taille">Taille</string>
+    <string name="default_poids">Poids</string>
+    <string name="default_groupeS">Groupe sanguin</string>
+    <string name="default_probleme">Problèmes médicaux</string>
+    <string name="default_allergie">Allergies et réactions</string>
+    <string name="default_traitements">Traitements</string>
+
+
+    <!-- UNDERLINE -->
+    <string name="nom"><u>Nom</u>:</string>
+    <string name="prenom"><u>Prénom</u>:</string>
+    <string name="age"><u>Age</u>:</string>
+    <string name="sexe"><u>Sexe</u>:</string>
+    <string name="taille"><u>Taille</u>:</string>
+    <string name="poids"><u>Poids</u>:</string>
+    <string name="groupeS"><u>Groupe sanguin</u>:</string>
+    <string name="probleme"><u>Problèmes médicaux</u>:</string>
+    <string name="allergie"><u>Allergies et réactions</u>:</string>
+    <string name="traitement"><u>Traitements</u>:</string>
+
 </resources>

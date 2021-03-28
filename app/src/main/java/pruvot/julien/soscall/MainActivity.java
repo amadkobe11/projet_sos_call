@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private Button bouton_fiche;
     private Button bouton_modifier;
     private ImageButton bouton1;
+    private ImageButton bouton2;
+    private ImageButton bouton3;
+    private ImageButton bouton4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,8 +53,38 @@ public class MainActivity extends AppCompatActivity {
         bouton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent appel1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel: " + "112"));
+                Intent appel1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"112"));
                 startActivity(appel1);
+            }
+        });
+
+        //Bouton Pompiers
+        this.bouton2 = findViewById(R.id.bouton2);
+        bouton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent appel2 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"18"));
+                startActivity(appel2);
+            }
+        });
+
+        //Bouton Samu
+        this.bouton3 = findViewById(R.id.bouton3);
+        bouton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent appel3 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"15"));
+                startActivity(appel3);
+            }
+        });
+
+        //Bouton Police
+        this.bouton4 = findViewById(R.id.bouton4);
+        bouton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent appel4 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"17"));
+                startActivity(appel4);
             }
         });
     }
